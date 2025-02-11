@@ -27,13 +27,13 @@ export const CONFIG = {
    * Firebase
    */
   firebase: {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ?? '',
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? '',
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? '',
-    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ?? '',
-    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ?? '',
-    appId: process.env.NEXT_PUBLIC_FIREBASE_APPID ?? '',
-    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID ?? '',
+    apiKey: "AIzaSyAL-IdK_ArbYsOm94m_2rEtV73fDaCyeJU",
+  authDomain: "cyse-1008-2025-c83e8.firebaseapp.com",
+  projectId: "cyse-1008-2025-c83e8",
+  storageBucket: "cyse-1008-2025-c83e8.firebasestorage.app",
+  messagingSenderId: "291419578013",
+  appId: "1:291419578013:web:f715767e187d5abcb63e74",
+  measurementId: "G-4DKDXF82PV"
   },
   /**
    * Amplify

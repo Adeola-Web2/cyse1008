@@ -13,3 +13,4 @@ export const firebaseApp = isFirebase ? initializeApp(CONFIG.firebase) : {};
 export const AUTH = isFirebase ? getAuth(firebaseApp) : {};
 
 export const FIRESTORE = isFirebase ? getFirestore(firebaseApp) : {};
+console.log("Firebase rrrrrrrAPI Key:", CONFIG.firebase.apiKey); // Debugging line
